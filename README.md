@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación desarrollada en **C++** utilizando el framework **Qt** y la biblioteca **OpenGL**. El objetivo principal es la creación de una escena interactiva con elementos gráficos (como una estrella, soportes y bolas) que pueden controlarse manualmente mediante el teclado o automáticamente mediante un temporizador.
 
+<img width="223" height="198" alt="image" src="https://github.com/user-attachments/assets/184c65be-3f8e-4ad9-bfc4-43f43b233a06" />
+
 ## 🚀 Características
 
 - **Visualización 3D/2D con OpenGL**: Renderizado de geometrías personalizadas mediante VAOs y VBOs.
@@ -10,6 +12,7 @@ Este proyecto es una aplicación desarrollada en **C++** utilizando el framework
     - **Modo Manual**: El usuario controla la escena o el tiempo mediante el teclado
     - **Modo Automático**: La escena se actualiza dinámicamente utilizando un `QTimer` que lanza un evento cada 50ms.
 - **Sincronización**: Uso de *Signals & Slots* de Qt para actualizar elementos de la interfaz (como un `doubleSpinBox`) en tiempo real según el tiempo de la simulación.
+- **Shaders**: Modificación de shaders para lograr un efecto Vímet en el soporte
 
 ## Controles del Modo Manual
 - Tecla A: Disminuye el ángulo del primer soporte (angleMan1) en 5 grados, con un límite mínimo de -40°.

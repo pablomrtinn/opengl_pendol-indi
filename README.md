@@ -51,4 +51,4 @@ El proyecto utiliza una estructura clásica de la asignatura:
 
 ---
 
-*Este proyecto ha sido desarrollado como parte de las prácticas de desarrollo de software gráfico.*
+*Este proyecto ha sido desarrollado como parte de las prácticas de desarrollo de Interacción y diseño de interfícies (INDI) en la universidad UPC en el campus EPSEVG*
